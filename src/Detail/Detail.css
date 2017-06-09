@@ -1,0 +1,165 @@
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearFix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.clearFix {
+    zoom: 1;
+}
+
+.backImg {
+    width: 100%;
+    height: 100%;
+    filter: blur(100px);
+    position: absolute;
+}
+
+.backColor {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.wrap {
+    text-align: center;
+    font-family: 'PingFang-SC-Regular';
+    padding-top: 1rem;
+    position: absolute;
+    left: 1.075rem /* 43px */
+
+}
+
+.songName {
+    color: #FFFFFF;
+    font-size: .9rem /* 36px */;
+}
+
+.singerName {
+    padding-top: .5rem /* 20px */;
+}
+
+.play {
+    width: 14.25rem /* 570px */;
+    margin: 0 1.25rem /* 50px */;
+}
+
+.total {
+    width: 14.25rem /* 570px */;
+    height: 0.1rem;
+    background-color: #d2d2d2;
+    border-radius: 0 .25rem;
+    margin-top: 2.975rem /* 119px */;
+}
+
+.had-play {
+    width: 0;
+    height: .25rem /* 10px */;
+    background-color: #ffce00;
+    position: relative;
+}
+
+.opcity {
+    width: .75rem /* 30px */;
+    height: .75rem /* 30px */;
+    background-color: #ffce00;
+    border-radius: 2.5rem /* 100px */;
+    margin: .875rem /* 35px */ 0;
+}
+
+.bar {
+    width: 1rem;
+    height: 2.5rem /* 100px */;
+    border-radius: 2.5rem /* 100px */;
+    padding-left: 0;
+    position: absolute;
+    top: -1.15rem;
+    left: 0;
+}
+
+.pro-time {
+    font-size: .6rem /* 24px */;
+    color: #FFFFFF;
+    font-family: 'Poppins-Regular';
+    padding-top: .65rem /* 26px */;
+}
+
+.operate {
+    display: flex;
+    justify-content: center;
+}
+
+.operate {
+    margin-top: -5rem /* 200px */;
+}
+
+.operate img {
+    width: 4.25rem /* 170px */;
+    height: 4.25rem /* 170px */;
+}
+
+.meImg {
+    margin-left: 1.6rem;
+    margin-top: 1rem /* 40px */;
+    width: 13.5rem /* 540px */;
+    height: 13.5rem /* 540px */;
+    background-image: url("./images/DISK@2x.png");
+    background-size: 13.5rem /* 540px */ 13.5rem /* 540px */;
+    background-repeat: no-repeat;
+    transform: rotate(70deg);
+    animation: play 10s linear infinite;
+}
+
+@keyframes play {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.meImg .headImg {
+    width: 5.35rem /* 214px */;
+    height: 5.35rem /* 214px */;
+    margin-top: 3.8rem;
+    border-radius: 50%;
+    border: 0.025rem solid #cccccc;
+}
+
+.shart {
+    width:2.35rem /* 94px */;
+    height:3.35rem;
+    margin: 1.6rem /* 64px */ auto;
+    color: #ffffff;
+    font-size: .65rem /* 26px */;
+
+}
+
+.shart img {
+    width: 2.35rem /* 94px */;
+    height: 2.35rem /* 94px */;
+}
+
+.shart p {
+    padding-top: .5rem /* 20px */;
+}
+.shart .active{
+    width: 6.5rem/* 260px */;
+    height:2.85rem/* 114px */;
+    position: absolute;
+    top:.625rem/* 25px */;
+    right:.1rem;
+    display: none;
+}

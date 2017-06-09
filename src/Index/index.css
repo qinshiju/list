@@ -1,0 +1,44 @@
+.List {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    border-bottom: 1px solid #eaeaea;
+    align-items: center;
+    font-size: 1rem;
+    color: #1e1e1e;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    background: none;
+}
+
+.wrap_info {
+    width: 14rem;
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.singer {
+    padding-top: 0.6rem;
+    font-size: .65rem /* 26px */;
+    color: #666666;
+    position: relative;
+}
+.time{
+    font-size: 0.55rem;
+    color: #666666;
+    position: absolute;
+    left:6.05rem/* 242px */;
+    bottom:0;
+}
+.delete {
+    border: .025rem solid #e1e2e3;
+    width: 3rem /* 120px */;
+    height: 1.625rem /* 65px */;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.625rem /* 65px */;
+}
